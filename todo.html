@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <h1>TODO List</h1>
+  <div class="todo-app">
+    <div id="todoForm">
+      <input type="text" id="todoInput" placeholder="Enter new todo" required />
+      <button onclick="createTodo()" type="submit">Add</button>
+  </div>
+  </div>
+  <li id="listingParent" class="todo-item">
+    <!-- <span class="todo-text">Learn Node.js</span>
+    <div class="todo-actions">
+      <button class="edit-btn">Edit</button>
+      <button class="delete-btn">Delete</button>
+    </div> -->
+  </li>
+</body>
+<script type="module" src="todo.js"></script>
+</html>
